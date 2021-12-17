@@ -3,4 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <context-param>
+        <description>톰캣 버전</description>
+        <param-name>tomcatVerseion</param-name>
+        <param-value>9.0.52</param-value>
+    </context-param>
+    <context-param>
+        <description>개발자 이름</description>
+        <param-name>devName</param-name>
+        <param-value>햇찬</param-value>
+    </context-param>
+    <context-param>
+        <description>DB 사용 여부</description>
+        <param-name>isDBEnabled</param-name>
+        <param-value>true</param-value>
+    </context-param>
 </web-app>
